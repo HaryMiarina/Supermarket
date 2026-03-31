@@ -14,7 +14,7 @@
                     <?php foreach ($produits as $p): ?>
                         <option value="<?php echo $p['id']; ?>">
                             <?php echo htmlspecialchars($p['designation']); ?> 
-                            (<?php echo number_format($p['prix'], 0, ',', ' '); ?> F - Stock: <?php echo $p['quantite_stock']; ?>)
+                            (<?php echo number_format($p['prix'], 0, ',', ' '); ?> Ar - Stock: <?php echo $p['quantite_stock']; ?>)
                         </option>
                     <?php endforeach; ?>
                 </select>
@@ -80,7 +80,7 @@
                 <tr class="total-row">
                     <td colspan="3" class="text-end fw-bold fs-5">Total</td>
                     <td class="text-end fw-bold fs-5 text-primary">
-                        <?php echo number_format($total, 0, ',', ' '); ?> F
+                        <?php echo number_format($total, 0, ',', ' '); ?> Ar
                     </td>
                     <td></td>
                 </tr>

@@ -20,7 +20,7 @@
                     <tr class="animate-fadeInUp" style="animation-delay: <?php echo ($index * 0.05); ?>s">
                         <td><?php echo $p['id']; ?></td>
                         <td class="fw-semibold"><?php echo htmlspecialchars($p['designation']); ?></td>
-                        <td class="text-end"><?php echo number_format($p['prix'], 0, ',', ' '); ?> F</td>
+                        <td class="text-end"><?php echo number_format($p['prix'], 0, ',', ' '); ?> Ar</td>
                         <td class="text-center">
                             <?php if ($p['quantite_stock'] > 20): ?>
                                 <span class="badge bg-success"><?php echo $p['quantite_stock']; ?></span>

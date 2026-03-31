@@ -35,7 +35,7 @@
             <tfoot>
                 <tr class="total-row">
                     <td colspan="3" class="text-end fw-bold fs-5">Total</td>
-                    <td class="text-end fw-bold fs-5 text-primary"><?php echo number_format($achat['total'], 0, ',', ' '); ?> F</td>
+                    <td class="text-end fw-bold fs-5 text-primary"><?php echo number_format($achat['total'], 0, ',', ' '); ?> Ar</td>
                 </tr>
             </tfoot>
         </table>
