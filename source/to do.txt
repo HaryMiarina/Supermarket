@@ -1,0 +1,34 @@
+4352 
+    (OK) Créer la page d'accueil (accueil.php)
+    (OK) Créer le layout/navbar (layout.php)
+    (OK) Styliser les pages (style.css complet)
+    (OK) Page login (design responsive)
+    (OK) Page inscription (design responsive)
+    (OK) Page besoins (affichage + filtres)
+    (OK) Page dons (affichage + filtres)
+    (OK) Page dashboard (graphiques)
+    (OK) Page distribution (interface)
+    (OK) Page récapitulation (tableaux)
+
+4140 
+    (OK) UserModel (CRUD utilisateurs)
+    (OK) BesoinModel (gestion besoins)
+    (OK) DonModel (gestion dons)
+    (OK) VilleModel (gestion villes)
+    (OK) DistributionModel (distributions)
+    (OK) VenteModel / AchatModel
+    (OK) Base de données (data.sql finalisé)
+    (OK) Données de test (seed data)
+    (OK) Validation des calculs (récap, ventes)
+    (OK) Tests fonctionnels des models
+
+
+4352    (OK) AuthController (login/inscription/logout)
+4352    (OK) WelcomeController
+4236    (OK) BesoinController / DonController
+4236    (OK) DistributionController / DashboardController
+4236    (OK) AchatController / VenteController / RecapController
+4236    (OK) Routes (routes.php)
+4236    (OK) Auto-connexion admin (bootstrap.php)
+4140    (OK) Sécurité (validation inputs)
+4140    (OK) Gestion des erreurs globale
