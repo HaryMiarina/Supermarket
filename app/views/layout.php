@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><?php echo isset($titre) ? htmlspecialchars($titre) : 'Supermarché'; ?> - Caisse n°<?php echo $_SESSION['caisse_numero']; ?></title>
+    <title><?php echo isset($titre) ? htmlspecialchars($titre) : 'Supermarche'; ?> - Caisse n°<?php echo $_SESSION['caisse_numero']; ?></title>
     <link rel="stylesheet" href="<?= asset('css/bootstrap.min.css') ?>">
     <link rel="stylesheet" href="<?= asset('css/bootstrap-icons/font/bootstrap-icons.css') ?>">
     <link rel="stylesheet" href="<?= asset('css/style.css') ?>">
@@ -14,14 +14,14 @@
         <div class="navbar-inner">
             <div class="navbar-brand-custom">
                 <i class="bi bi-cart4 me-2"></i>
-                TD - SI-IHM - <?php echo htmlspecialchars($_SESSION['user_login']); ?>
+                TD - S4-IHM - ETU004352 - ETU004140<?php echo htmlspecialchars($_SESSION['user_login']); ?>
             </div>
             <div class="navbar-actions">
                 <a href="changer-caisse" class="navbar-link">
                     <i class="bi bi-arrow-repeat me-1"></i>Changer Caisse
                 </a>
                 <a href="logout" class="navbar-link navbar-link-logout">
-                    <i class="bi bi-box-arrow-right me-1"></i>Déconnexion
+                    <i class="bi bi-box-arrow-right me-1"></i>Deconnexion
                 </a>
             </div>
         </div>
@@ -62,7 +62,7 @@
     <!-- Footer -->
     <footer class="footer-custom">
         <div class="footer-inner">
-            <span>Copyright &copy; Your Website <?php echo date('Y'); ?></span>
+            <span>Copyright &copy; 4352 - 4140 <?php echo date('Y'); ?></span>
         </div>
     </footer>
 
