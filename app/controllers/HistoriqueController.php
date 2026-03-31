@@ -34,6 +34,11 @@ class HistoriqueController
         $achat = $achatModel->findById($id);
         $lignes = $ligneModel->findByAchat($id);
 
+        if (!$achat) {
+            Flight::redirect(url('historique'));
+            return;
+        }
+
         Flight::render('layout', [
             'content' => 'historique_detail',
             'titre' => 'Détail achat #' . $id,

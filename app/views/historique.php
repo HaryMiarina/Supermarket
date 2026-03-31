@@ -29,7 +29,7 @@
                             <td><?php echo htmlspecialchars($a['utilisateur_nom']); ?></td>
                             <td class="text-end fw-bold"><?php echo number_format($a['total'], 0, ',', ' '); ?> F</td>
                             <td class="text-center">
-                                <a href="historique/<?php echo $a['id']; ?>" class="btn btn-sm btn-outline-primary">
+                                <a href="<?php echo url('historique/' . $a['id']); ?>" class="btn btn-sm btn-outline-primary">
                                     <i class="bi bi-eye"></i> Détail
                                 </a>
                             </td>
